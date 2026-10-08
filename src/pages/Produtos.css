@@ -1,0 +1,34 @@
+.form-produto {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  background-color: #fff1f2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  max-width: 700px;
+}
+
+.form-produto input {
+  width: 100%;
+}
+
+.form-produto button {
+  width: auto;
+  align-self: center;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 640px) {
+  .grid-produtos {
+    grid-template-columns: 1fr;
+  }
+}
