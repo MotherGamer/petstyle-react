@@ -4,6 +4,9 @@ Projeto desenvolvido em React como parte dos estudos de Front-End da EBAC.
 
 O PetStyle é uma loja virtual de produtos para pets. Nesta versão em React, o projeto foi adaptado para praticar componentes, props, state, useEffect, formulários controlados e renderização dinâmica de produtos.
 
+## Projeto online
+
+🔗 [Acessar o PetStyle React](https://mothergamer.github.io/petstyle-react/)
 ## Funcionalidades
 
 - Catálogo de produtos renderizado dinamicamente
