@@ -39,3 +39,10 @@
 .produto-card button {
   margin-top: 16px;
 }
+
+@media (max-width: 640px) {
+  .imagem-produto {
+    height: auto;
+    object-fit: contain;
+  }
+}
