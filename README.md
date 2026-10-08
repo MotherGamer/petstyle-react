@@ -1,16 +1,27 @@
-# React + Vite
+# PetStyle React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em React como parte dos estudos de Front-End da EBAC.
 
-Currently, two official plugins are available:
+O PetStyle é uma loja virtual de produtos para pets. Nesta versão em React, o projeto foi adaptado para praticar componentes, props, state, useEffect, formulários controlados e renderização dinâmica de produtos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Catálogo de produtos renderizado dinamicamente
+- Componente reutilizável `ProdutoCard`
+- Cadastro de novos produtos
+- Upload opcional de imagem
+- Imagem padrão quando não há foto cadastrada
+- Exclusão de produtos
+- Simulação de carregamento com `useEffect` e `setTimeout`
+- Layout responsivo para desktop e mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Projeto
+
+Esta versão em React foi criada a partir do projeto original PetStyle, anteriormente desenvolvido com HTML e Tailwind CSS.
